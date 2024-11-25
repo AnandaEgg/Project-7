@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+
+
+
+}
+.bannerHeading {
+    font-size: 40px;
+    font-family: "Comic Sans MS";
+    text-align: center;
+
+}
+#banner1 {
+    border-radius: 50%;
+    width: 500px;
+    
+
+}
+#banner1:hover {
+    border-width: 5px;
+    border-style: outset;
+    border-color: #432fa3;
+
+}
+#banner2 {
+    width: 200px;
+
+
+
+}
+table {
+    width: 100%;
+    border-width: 4px;
+    border-style: inset;
+    border-color: rgb(61, 7, 89);
+    border-collapse: collapse;
+}
+tr,th,td {
+    background-color: #c98aeb;
+    border-width: 4px;
+    border-style: inset;
+    border-color: rgb(61, 7, 89);
+    padding:10px;
+    text-align: left;
+}
+.images {
+    width: 400px;
+}
+td:hover,th:hover {
+    background-color: #3d0759;
+    color: white;
+
+}
